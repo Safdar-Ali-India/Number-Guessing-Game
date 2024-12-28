@@ -71,11 +71,11 @@ function displayMessage(message) {
 
 function endGame() {
     userInput.value = '';
-    userInput.setAttribute('disabled', '')
+    userInput.setAttribute('disabled', '');
     p.classList.add('button');
     p.innerHTML = `<h2 id="newGame"> Start new Game </h2>`
     resultParas.appendChild(p);
-    playGame=false;
+    playGame = false;
     newGame();
 }
 function newGame() {
